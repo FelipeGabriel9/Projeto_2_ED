@@ -1,0 +1,9 @@
+C:\Users\Pichau\source\repos\Projeto_2_ED\Projeto2Ed\bin\Debug\Projeto2Ed.exe.config
+C:\Users\Pichau\source\repos\Projeto_2_ED\Projeto2Ed\bin\Debug\Projeto2Ed.exe
+C:\Users\Pichau\source\repos\Projeto_2_ED\Projeto2Ed\bin\Debug\Projeto2Ed.pdb
+C:\Users\Pichau\source\repos\Projeto_2_ED\Projeto2Ed\obj\Debug\Projeto2Ed.csproj.AssemblyReference.cache
+C:\Users\Pichau\source\repos\Projeto_2_ED\Projeto2Ed\obj\Debug\Projeto2Ed.Properties.Resources.resources
+C:\Users\Pichau\source\repos\Projeto_2_ED\Projeto2Ed\obj\Debug\Projeto2Ed.csproj.GenerateResource.cache
+C:\Users\Pichau\source\repos\Projeto_2_ED\Projeto2Ed\obj\Debug\Projeto2Ed.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\source\repos\Projeto_2_ED\Projeto2Ed\obj\Debug\Projeto2Ed.exe
+C:\Users\Pichau\source\repos\Projeto_2_ED\Projeto2Ed\obj\Debug\Projeto2Ed.pdb
