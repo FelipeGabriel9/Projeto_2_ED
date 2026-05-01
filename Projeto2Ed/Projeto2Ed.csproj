@@ -53,6 +53,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HashDuplo.cs" />
     <Compile Include="HashSimples.cs" />
     <Compile Include="IHashing.cs" />
     <Compile Include="IRegistro.cs" />
