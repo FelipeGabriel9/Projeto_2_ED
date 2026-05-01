@@ -9,7 +9,7 @@ namespace Projeto2Ed
                                               new()
     {
         string Chave { get; }
-        void LerRegistro(StreamReader arquivo);
+        T LerRegistro(StreamReader arquivo);
         void EscreverRegistro(StreamWriter arquivo);
         new bool Equals(T outroRegistro);
         new int CompareTo(T outroRegistro);

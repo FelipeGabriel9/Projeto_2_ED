@@ -1,11 +1,12 @@
-﻿using Projeto2Ed;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Projeto2Ed;
 
 public class HashDuplo<T> : IHashing<T> where T : IRegistro<T>, new()
 {
-    const int tamanhoPadrao = 10007; // Número primo
-    T[] tabelaDeHash; // Vetor para armazenar os dados
+    private const int tamanhoPadrao = 10007; // Número primo
+    private T[] tabelaDeHash; // Vetor para armazenar os dados
+    private int quantidade;
 
     public HashDuplo(int tamanhoDesejado) // Construtor que recebe o tamanho desejado para a tabela de hash
     {
@@ -13,6 +14,7 @@ public class HashDuplo<T> : IHashing<T> where T : IRegistro<T>, new()
             throw new Exception("Tamanho da tabela de dados deve ser maior que zero!");
 
         tabelaDeHash = new T[tamanhoDesejado];
+        quantidade = 0;
     }
 
     public HashDuplo() : this(tamanhoPadrao) { }
@@ -28,13 +30,13 @@ public class HashDuplo<T> : IHashing<T> where T : IRegistro<T>, new()
         return (int)tot;
     }
 
-    private int Hash2(string item)
+    private int Hash2(string chave)
     {
         int R = 9973; 
         if (tabelaDeHash.Length <= 9973)
             R = 7; 
 
-        int valorChave = Math.Abs(item.GetHashCode());
+        int valorChave = Math.Abs(chave.GetHashCode());
         int resultado = R - (valorChave % R);
         return resultado;
     }
@@ -58,6 +60,7 @@ public class HashDuplo<T> : IHashing<T> where T : IRegistro<T>, new()
         if (tabelaDeHash[indice] == null)
         {
             tabelaDeHash[indice] = novoDado;
+            quantidade++;
             return true;
         }
 
@@ -71,12 +74,15 @@ public class HashDuplo<T> : IHashing<T> where T : IRegistro<T>, new()
         int indiceAtual = indiceOriginal;
         int tentativa = 0;
 
-        while (tabelaDeHash[indiceAtual] != null && tentativa < tabelaDeHash.Length)
+        while (tentativa < tabelaDeHash.Length)
         {
-            if (tabelaDeHash[indiceAtual].Equals(dado))
+            if (tabelaDeHash[indiceAtual] != null)
             {
-                posicao = indiceAtual;
-                return true;
+                if (tabelaDeHash[indiceAtual].Chave == dado.Chave)
+                {
+                    posicao = indiceAtual;
+                    return true;
+                }
             }
 
             indiceAtual = (indiceAtual + salto) % tabelaDeHash.Length;
@@ -91,10 +97,10 @@ public class HashDuplo<T> : IHashing<T> where T : IRegistro<T>, new()
 
     public bool Excluiu(T dado) // Mesma lógica do HashSimples
     {
-        int ondeAchou;
-        if (Existe(dado, out ondeAchou))
+        if (Existe(dado, out int ondeAchou))
         {
             tabelaDeHash[ondeAchou] = default(T);
+            quantidade--;
             return true;
         }
         return false;
@@ -118,9 +124,4 @@ public class HashDuplo<T> : IHashing<T> where T : IRegistro<T>, new()
         return dados;
     }
 
-    public void Limpar()
-    {
-        for (int i = 0; i < tabelaDeHash.Length; i++)
-            tabelaDeHash[i] = default(T);
-    }
 }
