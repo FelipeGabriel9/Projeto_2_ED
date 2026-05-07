@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|c:\\users\\pichau\\source\\repos\\projeto_2_ed\\projeto2ed\\buckethash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|solutionrelative:buckethash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|c:\\users\\pichau\\source\\repos\\projeto_2_ed\\projeto2ed\\hashsimples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\hashsimples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|solutionrelative:hashsimples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|c:\\users\\pichau\\source\\repos\\projeto_2_ed\\projeto2ed\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|c:\\users\\pichau\\source\\repos\\projeto_2_ed\\projeto2ed\\ihashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\ihashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|solutionrelative:ihashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|c:\\users\\pichau\\source\\repos\\projeto_2_ed\\projeto2ed\\iregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\iregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE290ECB-5E89-4865-A4C1-168E63EC0142}|Projeto2Ed.csproj|solutionrelative:iregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BucketHash.cs",
               "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\BucketHash.cs",
               "RelativeDocumentMoniker": "BucketHash.cs",
@@ -57,49 +57,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-01T15:27:17.596Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HashSimples.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\HashSimples.cs",
-              "RelativeDocumentMoniker": "HashSimples.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\HashSimples.cs",
-              "RelativeToolTip": "HashSimples.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T15:13:23.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRegistro.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\IRegistro.cs",
-              "RelativeDocumentMoniker": "IRegistro.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\IRegistro.cs",
-              "RelativeToolTip": "IRegistro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T15:11:45.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IHashing.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\IHashing.cs",
-              "RelativeDocumentMoniker": "IHashing.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\IHashing.cs",
-              "RelativeToolTip": "IHashing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T15:09:32.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -116,10 +73,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{80c411e8-fd5e-4b16-914b-0d9d84172cc1}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -156,6 +109,50 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HashSimples.cs",
+              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\HashSimples.cs",
+              "RelativeDocumentMoniker": "HashSimples.cs",
+              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\HashSimples.cs",
+              "RelativeToolTip": "HashSimples.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:13:23.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\IRegistro.cs",
+              "RelativeDocumentMoniker": "IRegistro.cs",
+              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\IRegistro.cs",
+              "RelativeToolTip": "IRegistro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:11:45.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IHashing.cs",
+              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\IHashing.cs",
+              "RelativeDocumentMoniker": "IHashing.cs",
+              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\Projeto_2_ED\\Projeto2Ed\\IHashing.cs",
+              "RelativeToolTip": "IHashing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:09:32.094Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
